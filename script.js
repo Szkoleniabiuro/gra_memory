@@ -32,9 +32,6 @@ x20:'<div id="d20" class="mybox" data-num="1">1</div>'
 
 let tab = Object.values(box);
 
-/*
-let tab = [box.x1, box.x2, box.x3, box.x4, box.x5, box.x6, box.x7, box.x8, box.x9, box.x10, box.x11, box.x12, box.x13, box.x14, box.x15, box.x16, box.x17, box.x18, box.x19, box.x20 ]
-*/
 
 let stab = tab.sort(function() {return 0.5 - Math.random()}); 
 
@@ -83,4 +80,5 @@ for (let i = 0; i < a.length; i++) {
   }
 });
 }
+
 
