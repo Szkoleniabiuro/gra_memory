@@ -1,0 +1,31 @@
+.mybox {width: 80px; height: 80px; background-color: rgb(0, 0, 0); display: flex; justify-content: center; align-items: center; font-size: 40px; color: rgb(0, 0, 0);
+    border: 6px groove rgb(199, 202, 36); 
+}
+
+
+#pok {display: grid; grid-template-columns: repeat(5, 100px); grid-gap: 10px; justify-content: center;
+}
+
+
+.kol {background-color: white;
+}
+
+.zm {background-color: rgb(242, 244, 141);
+
+}
+
+h1, h2 {text-align: center; color: rgb(58, 56, 56);
+
+}
+
+#info {display: flex; justify-content: center; font-size: 35px; color: rgb(149, 125, 4);
+
+}
+
+button {display: flex; margin: auto; font-size: 20px; border-radius: 8px;
+
+}
+
+.but {display: none;
+
+}
